@@ -1,0 +1,39 @@
+@import "~reset-css/sass/reset";
+@import "./assets/colors";
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('assets/fonts/Poppins/Poppins-Regular.ttf') format('ttf'),
+  url('assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PoppinsLight';
+  src: url('assets/fonts/Poppins/Poppins-Light.ttf') format('ttf'),
+  url('assets/fonts/Poppins/Poppins-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PoppinsThin';
+  src: url('assets/fonts/Poppins/Poppins-Thin.ttf') format('ttf'),
+  url('assets/fonts/Poppins/Poppins-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PoppinsBold';
+  src: url('assets/fonts/Poppins/Poppins-Bold.ttf') format('ttf'),
+  url('assets/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+}
+
+body {
+  font-family: "Poppins";
+}
+* {
+  font-family: "Poppins" !important;
+}
+
+.modal-close-button {
+  &:hover {
+    cursor: pointer;
+  }
+}
